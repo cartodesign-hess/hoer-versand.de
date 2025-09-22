@@ -93,7 +93,7 @@
                                         </div>
                                     {/block}
                                 {/if}
-                                <div class="mb-5">{link href=$Artikel->cURLFull style='color:#97BF0D'}{lang key='findOutMore' section='custom'}{/link}</div>
+                                <div class="mb-5">{link href=$Artikel->cURLFull style='color:#f18700'}{lang key='findOutMore' section='custom'}{/link}</div>
                             {/block}
                         {/col}
                         {col cols=12 md=4 lg=12 xl=4}
