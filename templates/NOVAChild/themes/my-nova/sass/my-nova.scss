@@ -512,7 +512,7 @@ label {
 
 .landing-contact {
   a {
-    color: $primary;
+    color: $orange;
   }
   .fa-light, .fa-brands {
     color: rgba(white, 0.65);
@@ -643,7 +643,7 @@ p {
 .slick-slider {
   .btn-primary {
     &:hover {
-      color: #525252;
+      color: #fff;
     }
   }
 }
@@ -1384,4 +1384,8 @@ p {
       }
     }
   }
+}
+
+.btn:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active, .btn:focus, .btn.focus {
+  box-shadow: unset !important;
 }
